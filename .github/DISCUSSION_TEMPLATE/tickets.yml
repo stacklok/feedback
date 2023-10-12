@@ -1,0 +1,63 @@
+title: "[Package Feedback] "
+labels: ["Package Review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide the details about the package you're giving feedback on.
+  - type: input
+    id: package-name
+    attributes:
+      label: Package Name
+      description: Enter the name of the package.
+    validations:
+      required: true
+  - type: dropdown
+    id: package-ecosystem
+    attributes:
+      label: Package Ecosystem
+      options:
+        - npm
+        - pypi
+        - rust
+    validations:
+      required: true
+  - type: input
+    id: pi-link
+    attributes:
+      label: Pi Link
+      description: Enter the link associated with Pi.
+    validations:
+      required: true
+  - type: input
+    id: repo-score
+    attributes:
+      label: Repo Score
+      description: Enter the score for the repository.
+    validations:
+      required: true
+  - type: input
+    id: person-score
+    attributes:
+      label: Person Score
+      description: Enter the score for the person or maintainer.
+    validations:
+      required: true
+  - type: input
+    id: global-score
+    attributes:
+      label: Global Score
+      description: Enter the global score for the package.
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: "Please provide any additional feedback or comments about the package."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for providing feedback on this package!
