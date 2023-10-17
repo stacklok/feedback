@@ -1,4 +1,4 @@
-title: "[Package Feedback] "
+title: "[Package Feedback]"
 labels: ["Package Review"]
 body:
   - type: markdown
@@ -19,7 +19,8 @@ body:
       options:
         - npm
         - pypi
-        - rust
+        - crates
+        - maven
     validations:
       required: true
   - type: input
@@ -30,16 +31,16 @@ body:
     validations:
       required: true
   - type: input
-    id: repo-score
+    id: repo-activity-score
     attributes:
-      label: Repository Score
+      label: Repository Activity Score
       description: Enter the Repository Score for the repository.
     validations:
       required: true
   - type: input
-    id: author-score
+    id: author-activity-score
     attributes:
-      label: Author Score
+      label: Author Activity Score
       description: Enter the Author score
     validations:
       required: true
