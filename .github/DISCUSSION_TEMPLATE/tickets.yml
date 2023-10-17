@@ -23,31 +23,24 @@ body:
     validations:
       required: true
   - type: input
-    id: pi-link
+    id: url-link
     attributes:
-      label: Pi Link
-      description: Enter the link associated with Pi.
+      label: URL Link
+      description: Enter the package URL
     validations:
       required: true
   - type: input
     id: repo-score
     attributes:
-      label: Repo Score
-      description: Enter the score for the repository.
+      label: Repository Score
+      description: Enter the Repository Score for the repository.
     validations:
       required: true
   - type: input
-    id: person-score
+    id: author-score
     attributes:
-      label: Person Score
-      description: Enter the score for the person or maintainer.
-    validations:
-      required: true
-  - type: input
-    id: global-score
-    attributes:
-      label: Global Score
-      description: Enter the global score for the package.
+      label: Author Score
+      description: Enter the Author score
     validations:
       required: true
   - type: textarea
