@@ -13,9 +13,9 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: package-ecosystem
+    id: package-manager
     attributes:
-      label: Package Ecosystem
+      label: Package Manager
       options:
         - npm
         - pypi
